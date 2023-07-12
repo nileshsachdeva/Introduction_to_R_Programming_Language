@@ -1,0 +1,23 @@
+---
+title: "Penguin Plots"
+author: "Nilesh"
+date: "2023-07-06"
+output: html_document
+---
+
+# Penguin Plots: Practice Analysis
+
+## Setting up my environment
+Notes: Setting up my R environment by loading the `tidyverse` and `palmerpenguins` packages
+
+``{r loading packages}
+install.packages("ggplot2")
+install.packages("palmerpenguins")
+``
+
+Rendering a file also automatically runs the code chunks to show the output. In this example, it shows that tidyverse was loaded using the `library()` function.
+
+```{r}
+library(ggplot2)
+library(palmerpenguins)
+```
